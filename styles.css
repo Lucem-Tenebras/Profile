@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 900;
+  }
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 6.625rem;
+    margin: 50px auto 0;
+    color: #66BFBF;
+  }
+
+h2 {
+    font-size: 2.5rem;
+    font-family: 'Dosis', sans-serif;
+    color: #66BFBF;
+  }
+
+  h3 {
+    color: #11999E;
+    font-weight: bold;
+  }
+
+  a{
+    color: #11999E;
+    display: inline-block;
+    margin: auto 15px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  a:hover {
+    color: white;
+  }
+
+  p{
+    color: #40514E;
+  }
+
+hr {
+  border: none;
+  border-top: 7px dotted #DDDDDD;
+  width: 5%;
+  margin: 50px auto;
+}
+
+.face{
+  width:10%;
+
+}
+.subtitle {
+  font-weight: normal;
+ }
+
+.top-container {
+  background-color: #EAF6F6;
+  padding-top: 100px;
+  position: relative;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.middle-container {
+  background-color: white;
+  padding:50px;
+}
+
+.intro{
+  width: 40%;
+  margin: auto;
+  line-height: 2rem;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding:50px 0 20px
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.icon1{
+  float:left;
+  margin-right: 30px;
+  width:17%;
+}
+.icon2{
+  float:right;
+  margin-left: 30px;
+  width:17%;
+}
+
+.credit{
+  font-size: 0.75rem;
+  color:#EAF6F6;
+  padding: 20px;
+}
+.button_contact {
+   background: #32F6FD;
+   background-image: -webkit-linear-gradient(top, #32F6FD, #11999E);
+   background-image: -moz-linear-gradient(top, #32F6FD, #11999E);
+   background-image: -ms-linear-gradient(top, #32F6FD, #11999E);
+   background-image: -o-linear-gradient(top, #32F6FD, #11999E);
+   background-image: -webkit-gradient(to bottom, #32F6FD, #11999E);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 7px;
+   color: #FFFFFF;
+   font-family: 'Dosis', sans-serif;
+   letter-spacing: 0.3rem;
+   font-size: 20px;
+   font-weight: 700;
+   padding: 8px 40px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 20px auto;
+}
+
+.button_contact:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 5px;
+   text-decoration: none;
+}
